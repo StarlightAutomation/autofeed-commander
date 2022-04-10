@@ -4,6 +4,9 @@ on:
     tags:
       - '*.*.*'
 
+env:
+  REGISTRY: ghcr.io
+
 jobs:
   build:
     name: Build and Push
